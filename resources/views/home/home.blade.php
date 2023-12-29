@@ -22,12 +22,19 @@
         @if($websites)
 
             @foreach($websites as $site)
-                <a href="{{ $site["link"] }}">{{ $site["title"] }}</a>
+                <div class="box">
+
+                    <div>
+                        <a href="{{ $site["link"] }}" target="_blank">{{ $site["title"] }}</a>
+                    </div>
+                </div>
             @endforeach
 
         @else
             <div class="box">
-                <p>No websites found!<br> Check your websites.json!</p>
+                <div>
+                    <p>No websites found!<br> Check your websites.json!</p>
+                </div>
             </div>
         @endif
 

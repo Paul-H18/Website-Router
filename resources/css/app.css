@@ -2,6 +2,7 @@
 
 body {
     background-color: #303134;
+    font-family: "Montserrat Alternates";
 }
 
 h1 {
@@ -17,8 +18,8 @@ h1 {
     display: flex;
     flex-direction: column;
 
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .box {
@@ -33,4 +34,19 @@ h1 {
     border-radius: 6px;
 
     background-color: #494a4f;
+
+    margin-bottom: 60px;
+
+    min-height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.box a {
+    text-decoration: none;
+    color: white;
 }

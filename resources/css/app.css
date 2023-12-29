@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap');
+
+body {
+    background-color: #313131;
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    font-weight: 200;
+}

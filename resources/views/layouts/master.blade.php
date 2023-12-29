@@ -17,6 +17,7 @@
         @yield('header')
     </header>
 
+
     @yield('content')
 
 
